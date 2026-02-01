@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rounak Kumar Sharma</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+  <link rel="script" href="script.js">
+  <link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+
+<body>
+
+  <div class="cursor"></div>
+
+  <img src="Images/background" alt="Profile Picture" class="Background-image">
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a class="navbar-brand" href="#"><img src="Images/logo.png" class="logo"></a>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <a class="active" href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col text-center text-md-start">
+          <h1>Hello, It's Me</h1>
+          <h2>MD SHAKIR</h2>
+          <h3>And I'm a <span class="highlight">Frontend Developer!</span></h3>
+          <p>Welcome to my professional portfolio. I am a skilled web developer with a passion for creating exceptional
+            user experiences.</p>
+
+          <!-- Social Media Icons -->
+          <div class="social-icons my-4">
+            <a href="https://www.linkedin.com/in/md-shakir-8676142bb/" class="social-icon"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/md_shakir.07/" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://x.com/MdShakir942803" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+
+          <!-- Download CV Button -->
+          <a href="#" class="btn btn-primary btn-shadow" id="download">Download CV</a>
+        </div>
+
+        <!-- Image with Circle Background -->
+        <div class="row align-items-center">
+          <div class=" col-md-6 text-center">
+            <div class="image-container">
+              <div class="image-circle">
+                <img src="Images/mikey.jpg" alt="Profile Picture" class="profile-img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section class="about-me" id="about">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Image with Circle Background -->
+        <div class="about-image-container">
+          <div class="about-image-circle">
+            <img src="Images/pp1.png" alt="Profile Picture" class="profile-img-a">
+          </div>
+        </div>
+
+        <!-- About Me Text Content -->
+        <div class="col-md-6">
+          <h2>About <span class="highlight">Me</span></h2>
+          <h3>Web Developer Extraordinaire!</h3>
+          <p>I am a dedicated dedicated frontend developer with a focus on creating visually appealing and user-friendly
+            websites.
+            My expertise includes HTML, CSS, and JavaScript, and I'm passionate about staying updated on the latest web
+            development trends.</p>
+
+          <!-- Read More Button -->
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- My Services Section -->
+  <section class="my-services" id="services">
+    <div class="container">
+      <h2>My <span class="highlight">Services</span></h2>
+      <div class="row">
+        <!-- Service 1: Web Development -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="bi"></i>
+            </div>
+            <h3 class="service-title">Web Development</h3>
+            <p class="service-description">
+              I offer high-quality web development services, creating responsive and interactive websites tailored to
+              clients' needs.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+
+        <!-- Service 2: Graphic Design -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="bi"></i>
+            </div>
+            <h3 class="service-title">Graphic Design</h3>
+            <p class="service-description">
+              With a creative touch, I provide graphic design services to enhance the visual appeal of websites and
+              digital content.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="foot-container py-5" id="contact">
+    <h2 class="text-center mb-5">
+      Contact <span>Me!</span>
+    </h2>
+    <form action="#" method="POST" class="contact-form">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <h4>Name</h4>
+          <input type="text" class="form-control" placeholder="Full Name" required>
+        </div>
+        <div class="col-md-6">
+          <h4>E-Mail</h4>
+          <input type="email" class="form-control" placeholder="Email Address" required>
+        </div>
+        <div class="col-md-6">
+          <h4>Phone Number</h4>
+          <input type="text" class="form-control" placeholder="Phone Number" required>
+        </div>
+        <div class="col-md-6">
+          <h4>Subject</h4>
+          <input type="text" class="form-control" placeholder="Email Subject" required>
+        </div>
+        <div class="col-12">
+          <h4>Message</h4>
+          <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+      </div>
+      <button type="submit" class="btn">
+        Send Message
+      </button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+
+  <script>
+
+    const cursor = document.querySelector('.cursor');
+    
+    document.addEventListener('mousemove', e => {
+      cursor.setAttribute("style", "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px;")
+    }) 
+
+    document.addEventListener('click', () => {
+      cursor.classList.add('expand');
+
+      setTimeout(() => {
+        cursor.classList.remove('expand');
+      }, 500)
+    })
+  </script>
+
+</body>
+
+</html>
